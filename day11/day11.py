@@ -10,7 +10,6 @@ for line in stdin:
     arr.append(list(map(int, list(line.strip()))))
 
 def flash(i, j):
-    # print(i, j, hasFlashed)
     if (i, j) in hasFlashed:
         return 0
     myAns = 1
